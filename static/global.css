@@ -1,16 +1,18 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
 
 body {
-	margin: 0;
-	font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-	font-size: 14px;
-	line-height: 1.5;
+	@apply bg-gray-100
+		
 }
-.btn{
-	@apply font-bold py-2 px-4 rounded text-white
+
+.btn {
+	@apply h-full ml-2
 }
-main{
-	@apply bg-white h-full shadow-xl py-4
+
+a:hover {
+	@apply text-main-100;
 }
+
+
+@tailwind utilities;

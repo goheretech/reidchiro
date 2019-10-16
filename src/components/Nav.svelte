@@ -1,8 +1,11 @@
 <script>
-	export let segment;
+	import NavSmall from './NavSmall.svelte'
 </script>
 
-<h2 class="text-2xl mt-auto text-3xl"><a href="." class="text-main-400 flex items-center"><i class="material-icons text-lg pr-1">supervised_user_circle</i>Reid<span class="text-main font-bold ">Chiropractic</span></a></h2>
+<div class="py-5 px-20 bg-gray-100 flex">
+	<NavSmall />
+	
+</div>
 
 <!-- <nav class="bg-main py-4 shadow-md">
 	<div class="container px-4 flex items-end text-white justify-between">

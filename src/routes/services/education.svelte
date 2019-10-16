@@ -8,7 +8,7 @@
 <svelte:head>
 	<title>Education | Services</title>
 </svelte:head>
-<div class="py-5 px-20"><Nav /></div>
+<Nav />
 <Hero url='img/int/_OSR6163.jpg' title="Education | Services"/>
 <About />
 <Footer />

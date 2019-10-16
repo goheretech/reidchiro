@@ -1,0 +1,1 @@
+<h2 class="text-2xl mt-auto text-3xl"><a href="." class="text-main-400 flex items-center"><i class="material-icons text-lg pr-1">supervised_user_circle</i>Reid<span class="text-main font-bold ">Chiropractic</span></a></h2>

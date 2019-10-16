@@ -9,7 +9,7 @@
 <svelte:head>
 	<title>Insights | Reid Chiropractic</title>
 </svelte:head>
-<div class="py-5 px-20"><Nav /></div>
+<Nav />
 <Hero url='img/int/_OSR6163.jpg' title="Dr. Reid's Insights"/>
 <About />
 <Footer />

@@ -644,11 +644,6 @@ body {
   margin-left: 0.5rem
 }
 
-a:hover {
-  color: #edf2f7;
-  text-decoration: underline;
-}
-
 .sr-only {
   position: absolute;
   width: 1px;

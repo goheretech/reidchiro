@@ -1,5 +1,5 @@
 
-<div class="bg-gray-100 px-20 py-10 flex">
+<div class="bg-gray-100 px-20 py-20 flex">
 	<div class="w-1/3 ">
 		<div class="bg-white w-full h-full p-6 rounded-lg shadow-lg">
 			<div class="bg-cover bg-center w-full h-full" style="background-image:url(img/int/_OSR6163.jpg)"></div>

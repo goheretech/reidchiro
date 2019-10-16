@@ -8,7 +8,24 @@
 <svelte:head>
 	<title>About Dr. Reid</title>
 </svelte:head>
-<div class="py-5 px-20"><Nav /></div>
+<Nav />
 <Hero url='img/int/_OSR6163.jpg' />
-<div class="bg-gray-100 h-64"></div>
+<div class="bg-gray-100 p-20 text-xl flex pt-10">
+	<div class="w-1/2">
+		<p>Dr. Charles Reid is a chiropractor and clinical nutritionist with over 30 years of experience helping his patients achieve optimal health.  Health and wellness are his passion, and he treats the whole body for ultimate healing, rather than treating individual symptoms.
+		</p>
+		<p class="mt-5">He loves learning new ways to help his patients, so he is constantly studying and learning the latest science in nutrition and chiropractics.  Dr. Reid will help you create your ultimate healthy experience through moving well, eating well, and thinking well.
+		</p>
+	</div>
+	<div class="w-1/2 ml-20 ">
+		<h2 class="text-4xl text-main font-bold mb-4">Education & Services</h2>
+		<ul class="list-disc ml-8">
+			<li>Doctor of Chiropractic, Life Chiropractic College, Marietta GA</li>
+			<li>Wellness International Chiropractic Association</li>
+			<li>Over 1000 continuing education hours on nutrition & chiropractic</li>
+			<li>Mentors & trains chiropractors entering the field of nutrition.</li>
+		</ul>
+	</div>
+	
+</div>
 <Footer />

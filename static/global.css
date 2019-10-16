@@ -10,9 +10,6 @@ body {
 	@apply h-full ml-2
 }
 
-a:hover {
-	@apply text-gray-200 underline;
-}
 
 
 @tailwind utilities;

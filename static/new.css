@@ -645,7 +645,8 @@ body {
 }
 
 a:hover {
-  color: #e6f7ec;
+  color: #edf2f7;
+  text-decoration: underline;
 }
 
 .sr-only {

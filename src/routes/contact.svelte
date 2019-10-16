@@ -1,14 +1,14 @@
-
 <script>
     import Nav from '../components/Nav.svelte';
+    import {services} from '../components/services.js';	
     import Hero from '../components/Hero.svelte';
-	import {services} from '../components/services.js';	
+    import About from '../components/About.svelte'
 	import Footer from '../components/Footer.svelte'
 </script>
 <svelte:head>
-	<title>About Dr. Reid</title>
+	<title>Contact | Reid Chiropractic</title>
 </svelte:head>
 <div class="py-5 px-20"><Nav /></div>
-<Hero url='img/int/_OSR6163.jpg' />
-<div class="bg-gray-100 h-64"></div>
+<Hero url='img/int/_OSR6163.jpg' title="Get In Touch"/>
+<About />
 <Footer />

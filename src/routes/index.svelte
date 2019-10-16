@@ -1,5 +1,6 @@
 <script>	
 	import Nav from '../components/Nav.svelte';
+	import About from '../components/About.svelte'
 	import {services} from '../components/services.js';	
 	import Footer from '../components/Footer.svelte'
 </script>
@@ -14,7 +15,7 @@
 		<a class="bg-main px-8 py-4 rounded-lg text-white shadow-md hover:border-main hover:bg-white hover:text-main" href="contact">Book Your Escape</a>
 	</div>
 	<div class="w-1/2 relative">
-		<div class="bg-cover bg-center bg-fixed" style="background-image:url(https://picsum.photos/1200); height:700px"></div>
+		<div class="bg-cover bg-center" style="background-image:url('img/int/_OSR6248.jpg'); height:700px"></div>
 		<svg class="absolute inset-y-0 h-full fill-current text-gray-100 w-32 -ml-16" preserveAspectRatio="none" viewBox="0 0 100 100">
 			<polygon points="50,0 100,0 50,100 0,100"/>
 		</svg>
@@ -25,13 +26,13 @@
 		<h2 class="font-bold text-3xl">
 			Our Services
 		</h2>
-		<h3 class="text-gray-700 text-xl mt-2">
+		<h3 class="text-gray-700 text-xl mt-1">
 			Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis, sint?
 		</h3>
-		<div class="flex mt-8 -mx-6 mt-8 text-gray-800">
+		<div class="flex mt-8 -mx-3 mt-8 text-gray-800">
 			{#each services as service}
-				<div class="bg-gray-100 mx-6 shadow-md rounded-lg pt-0 flex flex-col border-gray-500 mb-6 ">
-					<img src="https://picsum.photos/400/200" alt="" class=" rounded-t-lg w-full h-64 object-cover">
+				<div class="bg-gray-100 mx-3 shadow-md rounded-lg pt-0 flex flex-col border-gray-500 mb-6 ">
+					<img src="{service.img}" alt="" class=" rounded-t-lg w-full h-64 object-cover">
 					<div class="p-4 pb-8">
 						<h3 class="text-lg text-gray-800">{service.tag}</h3>
 						<h2 class="font-bold text-4xl text-main mb-4">{service.name}</h2>
@@ -43,4 +44,5 @@
 		</div>
 	</div>
 </div>
+<About />
 <Footer />

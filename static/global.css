@@ -11,7 +11,7 @@ body {
 }
 
 a:hover {
-	@apply text-main-100;
+	@apply text-gray-200 underline;
 }
 
 

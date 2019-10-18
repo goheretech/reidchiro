@@ -10,13 +10,45 @@
 	<link rel='stylesheet' href='new.css'>
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 	<link rel='manifest' href='manifest.json'>
 	<link rel='icon' type='image/png' href='favicon.png'>
 	%sapper.styles%
 	%sapper.head%
+	<style>
+		.open{
+			 animation: open .5s;
+			 animation-fill-mode: both;
+			 animation-direction:alternate;
+		}
+		@keyframes open {
+			from {
+				width:0;
+				opacity:0
+			}
+			to {
+				width:40%;
+				opacity:1
+			}
+		}
+	</style>
 </head>
-<body class="bg-white">
-	<div id='sapper' >%sapper.html%</div>
+<body>	
+	<div id="ham" class="fixed bg-main top-0 right-0 rounded-full z-40 p-10 cursor-pointer">
+		<div class="h-1 w-10 bg-white mb-2"></div>
+		<div class="h-1 w-10 bg-white mb-2"></div>
+		<div class="h-1 w-10 bg-white mb-2"></div>
+	</div>
+	<div id='sapper' class="bg-gray-100 ">%sapper.html%</div>
 	%sapper.scripts%
+	<script>
+		$('#ham').click(()=>{
+			$('#menu').toggleClass('open')
+		})
+
+		$('#menu a').click(()=>{
+			$('#menu').toggleClass('open')
+		})
+	</script>
 </body>
 </html>

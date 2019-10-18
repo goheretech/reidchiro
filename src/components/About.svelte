@@ -12,7 +12,7 @@
 		<h3 class="text-gray-700 text-4xl mt-1">
 			Passionate about health and wellness.
 		</h3>
-		<p class="my-4 text-2xl">Dr. Charles Reid has applied his 30 years of experience to help patients achieve optimum health. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus commodi autem omnis velit repellendus sit, beatae obcaecati doloremque nulla consectetur quas, eligendi cumque quidem. Ad quaerat corrupti ea tempore iure?</p>
+		<p class="my-4 text-2xl">Dr. Charles Reid has applied his 30 years of experience to help patients achieve optimum health. Dr. Reid will help you create your ultimate healthy experience through moving well, eating well, and thinking well. Learn more about why Dr. Reid is so well recieved in his field.</p>
 		<a href="/about" class="text-xl">Learn More</a>
 	</div>	
 </div>

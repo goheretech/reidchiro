@@ -9,6 +9,6 @@
 	<title>Education | Services</title>
 </svelte:head>
 <Nav />
-<Hero url='img/int/_OSR6163.jpg' title="Education | Services"/>
+<Hero url='img/transac.jpg' title="Education | Services"/>
 <About />
 <Footer />

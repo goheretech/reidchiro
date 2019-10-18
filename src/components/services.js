@@ -3,8 +3,7 @@ export const services = [
                name: 'Chiropractic',
                tag: 'Align Yourself',
                img: 'img/int/_OSR6267.jpg',
-               desc:
-                   'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia asperiores neque ad blanditiis maiores, accusantium earum aliquid soluta minus dolorum?',
+               desc: 'Proper eating can replenish and restore deficiencies while eliminating toxicities that lead to early degeneration.',
                url: 'services/chiro'
            },
            {
@@ -12,7 +11,7 @@ export const services = [
                tag: 'Eat Right',
                img: 'img/int/_OSR6150.jpg',
                desc:
-                   'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia asperiores neque ad blanditiis maiores, accusantium earum aliquid soluta minus dolorum?',
+                   'The doctor of the future will no longer treat the human frame with drugs, but rather will cure and prevent disease with nutrition.',
                url: 'services/nutrit'
            },
            {

@@ -9,6 +9,10 @@
 	<title>Nutrition | Services</title>
 </svelte:head>
 <Nav />
-<Hero url='img/int/_OSR6163.jpg' title="Nutrition | Services"/>
+<Hero url='img/int/_OSR6169.jpg' title="Nutrition | Services"/>
+<div class="bg-gray-100 px-20 py-32">
+    <p class="text-center text-xl text-4xl px-20"><span class="text-main font-bold text-5xl"> Food is medicine. </span>   Proper eating can replenish and restore deficiencies while eliminating toxicities that lead to early degeneration. By using a combination of whole food supplements and healthy eating our patients progress toward <span class="text-main font-bold text-5xl"> optimum wellness</span>.
+</p>    
+</div>
 <About />
 <Footer />

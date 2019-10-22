@@ -10,7 +10,7 @@
             </a>
             <h4 class=" text-lg mt-8 mb-4">2157 Avon Industrial Dr.<br>Rochester Hills, MI 48309</h4>
             <h4 class=" text-lg">hello@reidchiropractic.com</h4>
-            <h4 class=" text-lg">512.233.4554</h4>
+            <h4 class=" text-lg">248.828.8300</h4>
         </div> 
         <div class="w-1/6">
             <h2 class="text-2xl py-2">Navigation</h2>

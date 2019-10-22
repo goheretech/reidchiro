@@ -44,6 +44,16 @@
 	<div id='sapper' class="bg-gray-100 ">%sapper.html%</div>
 	%sapper.scripts%
 	<script>
+
+		document.addEventListener('scroll', onScrollEvent)
+
+		function onScrollEvent(e){
+			var p = 100 * $(window).scrollTop() / ($(document).height() - $(window).height());		
+			$('.floater').css({transform:`translateY(${-5*p+250}px)`})
+			log
+		}
+
+		
 		$('#ham').click(()=>{
 			$('#menu').toggleClass('open')
 		})

@@ -45,8 +45,8 @@
     <div class="w-full h-full flex justify-center items-center bg-main">
         <ul class="flex justify-center items-center flex-col text-white text-5xl font-bold pr-12">
             <li class="my-5"><a href="about">About Dr. Reid</a></li>
-            <li class="my-5"><a href="services/chiro">Chiropractic</a></li>
-            <li class="my-5"><a href="services/nutrit">Nutrition</a></li>
+            <li class="my-5"><a href="services/chiropractic">Chiropractic</a></li>
+            <li class="my-5"><a href="services/nutrition">Nutrition</a></li>
             <li class="my-5"><a href="services/education">Education</a></li>
             <li class="my-5"><a href="insights">Insights</a></li>
             <li class="my-5"><a href="contact">Contact Us</a></li>

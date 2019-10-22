@@ -49,8 +49,10 @@
 
 		function onScrollEvent(e){
 			var p = 100 * $(window).scrollTop() / ($(document).height() - $(window).height());		
-			$('.floater').css({transform:`translateY(${-5*p+250}px)`})
-			log
+
+			$('.floater').css({transform:`translateY(${-5*p+250}px)`});
+			$('.floatImg').css({backgroundPositionY:`${-.9*p + 80}%`})
+
 		}
 
 		

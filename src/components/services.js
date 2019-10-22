@@ -4,7 +4,7 @@ export const services = [
                tag: 'Align Yourself',
                img: 'img/int/_OSR6208.jpg',
                desc: 'Proper eating can replenish and restore deficiencies while eliminating toxicities that lead to early degeneration.',
-               url: 'services/chiro'
+               url: 'services/chiropractic'
            },
            {
                name: 'Nutrition',
@@ -12,7 +12,7 @@ export const services = [
                img: 'img/int/_OSR6150.jpg',
                desc:
                    'The doctor of the future will no longer treat the human frame with drugs, but rather will cure and prevent disease with nutrition.',
-               url: 'services/nutrit'
+               url: 'services/nutrition'
            },
            {
                name: 'Education',

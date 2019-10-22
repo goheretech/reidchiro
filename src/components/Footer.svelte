@@ -24,8 +24,8 @@
         <div class="w-1/6">
             <h2 class="text-2xl py-2">Services</h2>
             <ul>
-                <li><a href="/services/chiro">Chiropractic</a></li>
-                <li><a href="/services/nutrit">Nutrition</a></li>
+                <li><a href="/services/chiropractic">Chiropractic</a></li>
+                <li><a href="/services/nutrition">Nutrition</a></li>
                 <li><a href="/services/education">Education</a></li>
             </ul>
         </div>     

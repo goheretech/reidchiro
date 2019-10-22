@@ -2,7 +2,7 @@ export const services = [
            {
                name: 'Chiropractic',
                tag: 'Align Yourself',
-               img: 'img/int/_OSR6267.jpg',
+               img: 'img/int/_OSR6208.jpg',
                desc: 'Proper eating can replenish and restore deficiencies while eliminating toxicities that lead to early degeneration.',
                url: 'services/chiro'
            },

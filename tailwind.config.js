@@ -14,6 +14,9 @@ module.exports = {
                     default: '#265435',
                     600: '#0e4522',
                     700: '#05240f'
+                },
+                brown: {
+                    default: '#382B05'
                 }
             }
         }

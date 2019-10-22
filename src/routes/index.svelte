@@ -10,8 +10,8 @@
 <div class="flex items-center bg-gray-100">
 	<div class="w-1/2 px-20 -mt-20">
 		<NavSmall />
-		<h1 class="mt-10 text-5xl capitalize text-gray-800">Your health is in <span class="text-main font-bold">good hands</span>. <br><span class="text-main font-bold"></span></h1>
-		<p class="my-5 leading-relaxed mb-20 text-gray-800 text-2xl">Passionate about <span class="text-main font-bold"> health and wellness</span>, Dr. Charles Reid applies his over <br><span class="text-main font-bold">30 years of experience</span> to help patients achieve optimum health. <br> Schedule your appointment today!</p>
+		<h1 class="mt-24 text-6xl capitalize text-gray-800">Your health is in <span class="text-main font-bold">good hands</span>. <br><span class="text-main font-bold"></span></h1>
+		<p class="my-5 leading-relaxed mb-20 text-gray-800 text-2xl">Passionate about <span class="text-main font-bold"> health and wellness</span>, Dr. Charles Reid applies his over <span class="text-main font-bold">30 years of experience</span> to help patients achieve optimum health. <br> Schedule your appointment today!</p>
 		<a class="bg-main px-8 py-4 rounded-lg text-white shadow-md hover:border-main hover:bg-white hover:text-main" href="contact">Schedule Today</a>
 	</div>
 	<div class="w-1/2 relative">
@@ -41,5 +41,7 @@
 		</div>
 	</div>
 </div>
-<About />
+<div class="pt-16">
+	<About />
+</div>
 <Footer />

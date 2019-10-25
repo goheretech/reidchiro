@@ -23,7 +23,7 @@ export const services = [
                img: 'img/int/_OSR6192.jpg',
                desc:
                    'Learn about how you can mitigate the effects of the widespread modern toxins on your health.',
-               url: 'services/education',
+               url: 'insights',
                button: 'Dive In'
            }
        ];

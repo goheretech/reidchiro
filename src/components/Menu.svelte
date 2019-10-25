@@ -2,7 +2,7 @@
 
 </style>
 
-<div id="menu" class="fixed h-screen bg-brown z-30 right-0 m-auto opacity-0 " style="background:#382B05;">
+<div id="menu" class="fixed h-screen bg-brown z-30 right-0 m-auto opacity-0 hidden" style="background:#382B05;">
 
 <svg class="absolute inset-y-0 h-full fill-current text-main w-64 -ml-56"  preserveAspectRatio="none" viewBox="0 0 139.48 413.07">
 			<path d="M139.92-0.21l-12.3,0.24c-0.91,0-1.83,0-2.74,0c-1.55,0-3.09,0-4.64,0c0.37,3.87,0.41,7.75-0.23,11.59
@@ -47,7 +47,6 @@
             <li class="my-5"><a href="about">About Dr. Reid</a></li>
             <li class="my-5"><a href="services/chiropractic">Chiropractic</a></li>
             <li class="my-5"><a href="services/nutrition">Nutrition</a></li>
-            <li class="my-5"><a href="services/education">Education</a></li>
             <li class="my-5"><a href="insights">Insights</a></li>
             <li class="my-5"><a href="contact">Contact Us</a></li>
         </ul>

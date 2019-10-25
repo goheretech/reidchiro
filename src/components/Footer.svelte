@@ -1,3 +1,8 @@
+<script>
+    import posts from '../routes/insights/_posts.js';
+    
+</script>
+
 <div class="bg-main px-20 text-gray-100" >
     <div class="py-10 flex">
         <div class="w-1/3">
@@ -27,6 +32,15 @@
                 <li><a href="/services/chiropractic">Chiropractic</a></li>
                 <li><a href="/services/nutrition">Nutrition</a></li>
                 <li><a href="/services/education">Education</a></li>
+            </ul>
+        </div>     
+        <div class="w-1/6">
+            <h2 class="text-2xl py-2">Insights</h2>
+            <ul>
+                {#each posts as insight}
+                    <li><a href="/insights/{insight.slug}">{insight.title}</a></li>
+                    
+                {/each}
             </ul>
         </div>     
     </div>

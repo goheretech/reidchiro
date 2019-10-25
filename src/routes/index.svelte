@@ -4,6 +4,18 @@
 	import {services} from '../components/services.js';	
 	import Footer from '../components/Footer.svelte'
 </script>
+<style>
+
+	.btn{
+		transition: all .2s;
+		-webkit-transition: all .2s;
+		padding-left:0px;
+	}
+	.btn:hover{
+		padding-left:4px;
+		font-size:16px;
+	}
+</style>
 <svelte:head>
 	<title>Reid Chiropractic</title>
 </svelte:head>
@@ -29,13 +41,13 @@
 		</h2>
 		<div class="flex mt-8 -mx-3 mt-16 text-gray-800 justify-center">
 			{#each services as service}
-				<div class="bg-gray-100 mx-3 shadow-md rounded-lg pt-0 flex flex-col border-gray-500 mb-6 hover:shadow-xl w-1/3 floater" data-var="30">
+				<div class="bg-gray-100 mx-3 shadow-2xl rounded-lg pt-0 flex flex-col border-gray-500 mb-6 hover:shadow-3xl w-1/3 floater" data-var="30">
 					<img src="{service.img}" alt="" class=" rounded-t-lg w-full h-64 object-cover">
-					<div class="p-4 pb-8">
+					<div class="p-12 pb-16">
 						<h3 class="text-lg text-gray-800">{service.tag}</h3>
 						<h2 class="font-bold text-4xl text-main mb-4">{service.name}</h2>
 						<p class="mb-6">{service.desc}</p>
-						<a href="{service.url}" class="text-main">{service.button}</a>
+						<a href="{service.url}" class="text-main btn">{service.button}</a>
 					</div>
 				</div>			
 			{/each}

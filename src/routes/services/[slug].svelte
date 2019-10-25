@@ -33,7 +33,7 @@
     
     </div>
 
-    <div class="absolute bg-white shadow-xl top left p-24 m-16 w-1/2 rounded floater">
+    <div class="absolute bg-white shadow-xl top left p-24 m-16 w-1/2 rounded floater" data-var="100">
         <h1 class="text-5xl font-bold text-gray-900" style="font-size:3.8vw;">{post.head}</h1>
         {@html post.html}
         <a href="#" class="bg-main rounded shadow px-8 py-4 text-gray-100 my-8">Call Now</a>

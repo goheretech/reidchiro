@@ -53,9 +53,10 @@
 
 		function onScrollEvent(e){
 			var p = 100 * $(window).scrollTop() / ($(document).height() - $(window).height());		
-
-			$('.floater').css({transform:`translateY(${-5*p+250}px)`});
-			$('.floatImg').css({backgroundPositionY:`${-.9*p + 80}%`})
+			var v = $('.floater').data('var');
+			var vI = $('.floaterI').data('var');
+			$('.floater').css({transform:`translateY(${(-5*p+250)*v/100}px)`});
+			$('.floaterI').css({transform:`translateY(${(-5*p)*vI/100}px) scale(1.2)`});
 
 		}
 

@@ -28,11 +28,15 @@
 </svelte:head>
 
 <Nav />
-<Hero url='img/int/_OSR6163.jpg' title=""/>
+<Hero url='{post.img}' title=""/>
 <h1 class=" ml-2 mt-6 text-main text-6xl  w-1/2 font-bold relative z-10 px-20 -mt-20" >{post.title}</h1>
 <div class='content px-20 py-10'>
 	{@html post.html}
-	<a class="pt-8" href="/insights" style="margin-top:30px">Back to Insights</a>
+	<a class="pt-8" href="/insights" style="margin-top:30px">
+		<div class="mt-8 text-xl">
+			Back to Insights
+		</div>
+	</a>
 </div>
 
 <About />

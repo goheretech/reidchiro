@@ -31,7 +31,7 @@
             <ul>
                 <li><a href="/services/chiropractic">Chiropractic</a></li>
                 <li><a href="/services/nutrition">Nutrition</a></li>
-                <li><a href="/services/education">Education</a></li>
+                <li><a href="insights">Education</a></li>
             </ul>
         </div>     
         <div class="w-1/6">

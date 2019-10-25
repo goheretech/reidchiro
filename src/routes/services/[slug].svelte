@@ -38,11 +38,6 @@
         {@html post.html}
         <a href="#" class="bg-main rounded shadow px-8 py-4 text-gray-100 my-8">Call Now</a>
     </div>
-
-	
-    <!-- <p class="text-center text-4xl px-20">Proper musculoskeletal alignment and exercise are the  keys to <span class="text-main font-bold text-5xl">moving correctly </span> and <span class="text-main font-bold text-5xl">strengthening</span> the mind-body connection.</p>    
-
-    <a href="contact" class="text-main text-3xl font-bold uppercase">Call Us Today!</a> -->
 </div>
 <About />
 <Footer />

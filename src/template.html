@@ -53,10 +53,14 @@
 		document.addEventListener('scroll', onScrollEvent)
 
 		function onScrollEvent(e){
-			var p = 100 * $(window).scrollTop() / ($(document).height() - $(window).height());		
-			var v = $('.floater').data('var');
+			var p = 100 * $(window).scrollTop() / ($(document).height() - $(window).height());	
+			
+			$('.floater').each(function(index){
+				var v = $(this).data('var');
+				$(this).css({transform:`translateY(${(-5*p+250)*v/100}px)`});
+			});
+			
 			var vI = $('.floaterI').data('var');
-			$('.floater').css({transform:`translateY(${(-5*p+250)*v/100}px)`});
 			$('.floaterI').css({transform:`translateY(${(-5*p)*vI/100}px) scale(1.2)`});
 
 		}

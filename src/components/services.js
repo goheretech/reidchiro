@@ -1,25 +1,29 @@
 export const services = [
            {
-               name: 'Chiropractic',
                tag: 'Align Yourself',
+               name: 'Chiropractic',
                img: 'img/int/_OSR6208.jpg',
-               desc: 'Proper eating can replenish and restore deficiencies while eliminating toxicities that lead to early degeneration.',
-               url: 'services/chiropractic'
+               desc:
+                   'Bolster your body’s ability to heal naturally and function properly with adjustments.',
+               url: 'services/chiropractic',
+               button: 'Schedule Now'
            },
            {
+               tag: 'Feed Yourself',
                name: 'Nutrition',
-               tag: 'Eat Right',
                img: 'img/int/_OSR6150.jpg',
                desc:
-                   'The doctor of the future will no longer treat the human frame with drugs, but rather will cure and prevent disease with nutrition.',
-               url: 'services/nutrition'
+                   'Give your gut the nutrients it needs to support you with a supplement regimen and dietary plan.',
+               url: 'services/nutrition',
+               button: 'Get Started'
            },
            {
+               tag: 'Enlighten Yourself',
                name: 'Education',
-               tag: 'Learn More',
                img: 'img/int/_OSR6192.jpg',
                desc:
-                   'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia asperiores neque ad blanditiis maiores, accusantium earum aliquid soluta minus dolorum?',
-               url: 'services/education'
+                   'Learn about how you can mitigate the effects of the widespread modern toxins on your health.',
+               url: 'services/education',
+               button: 'Dive In'
            }
        ];

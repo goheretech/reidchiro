@@ -1,4 +1,4 @@
-<div class="bg-main-400 px-20 text-gray-100" >
+<div class="bg-main px-20 text-gray-100" >
     <div class="py-10 flex">
         <div class="w-1/3">
             <a href="." class="flex items-center text-white">

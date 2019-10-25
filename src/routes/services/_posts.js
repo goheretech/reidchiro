@@ -11,7 +11,7 @@ const posts = [
     {
         title: 'Chiropractic',
         slug: 'chiropractic',
-        head: `This is the chiropractic page`,
+        head: `Adjusting For Wellness`,
         html: `<p class="text-2xl mt-8 mb-16">Proper musculoskeletal alignment and exercise are the  keys to <span class="text-main font-bold text-3xl">moving correctly </span> and <span class="text-main font-bold text-3xl">strengthening</span> the mind-body connection.</p>`,
         pic: 'img/exam.jpg'
     },

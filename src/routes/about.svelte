@@ -14,8 +14,7 @@
 	<div class="w-1/2">
 		<p>Dr. Charles Reid is a chiropractor and clinical nutritionist with over 30 years of experience helping his patients achieve optimal health.  Health and wellness are his passion, and he treats the whole body for ultimate healing, rather than treating individual symptoms.
 		</p>
-		<p class="mt-5">He loves learning new ways to help his patients, so he is constantly studying and learning the latest science in nutrition and chiropractics.  Dr. Reid will help you create your ultimate healthy experience through moving well, eating well, and thinking well.
-		</p>
+		<p class="mt-5">Dr. Reid committed to learning the best ways to help his patients--always reading the latest science, attending conferences, and even mentoring other doctors in the field. He will help you create your ultimate healthy experience through moving well, eating well, and thinking well.	</p>
 	</div>
 	<div class="w-1/2 ml-20 ">
 		<h2 class="text-4xl text-main font-bold mb-4">Education & Services</h2>

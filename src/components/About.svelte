@@ -10,9 +10,9 @@
 			Meet Dr. Reid
 		</h2>
 		<h3 class="text-gray-700 text-4xl mt-1">
-			Passionate about <span class="text-main-400 font-bold">health </span> and <span class="text-main-400 font-bold">wellness</span>.
+			Your guide to true <span class="text-main-400 font-bold">health </span> and <span class="text-main-400 font-bold">wellness</span>.
 		</h3>
-		<p class="my-4 text-2xl">Dr. Charles Reid has applied his 30 years of experience to help patients achieve optimum health. Dr. Reid will help you create your ultimate healthy experience through moving well, eating well, and thinking well. Learn more about why Dr. Reid is so well recieved in his field.</p>
+		<p class="my-4 text-2xl">Dr. Charles Reid applies his over 30 years of experience to help you achieve lasting wellness through moving well, eating well, and thinking well. Learn more about why Dr. Reid is so well respected in his field.</p>
 		<a href="/about" class="text-xl">Learn More</a>
 	</div>	
 </div>

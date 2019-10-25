@@ -17,6 +17,7 @@
 	<div class="w-1/2 relative h-full">
 		<div class=" bg-bottom bg-cover floatImg" style="background-image:url('img/og.jpg'); height:100%; background-position-x: 35%; background-position-y:10%"></div>
 		<svg class="absolute inset-y-0 h-full fill-current text-gray-100 w-32 -ml-16" preserveAspectRatio="none" viewBox="0 0 100 100">
+			
 			<polygon points="50,0 100,0 50,100 0,100"/>
 		</svg>
 	</div>
@@ -34,7 +35,7 @@
 						<h3 class="text-lg text-gray-800">{service.tag}</h3>
 						<h2 class="font-bold text-4xl text-main mb-4">{service.name}</h2>
 						<p class="mb-6">{service.desc}</p>
-						<a href="{service.url}" class="text-main">Learn More</a>
+						<a href="{service.url}" class="text-main">{service.button}</a>
 					</div>
 				</div>			
 			{/each}

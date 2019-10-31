@@ -39,7 +39,7 @@
 	<div class="w-1/2 px-20 -mt-20 ">
 		<NavSmall />
 		<h1 class="mt-24 text-6xl capitalize text-gray-800" style="font-size:3vw">Your health is in <span class="text-main font-bold">good hands</span>. <br><span class="text-main font-bold"></span></h1>
-		<p class="my-5 leading-relaxed mb-20 text-gray-800 text-2xl">Passionate about <span class="text-main font-bold"> health and wellness</span>, Dr. Charles Reid applies his over <span class="text-main font-bold">30 years of experience</span> to help patients achieve optimum health. </p>
+		<p class="my-5 leading-relaxed mb-20 text-gray-800 text-3xl">Passionate about <span class="text-main font-bold"> health and wellness</span>, Dr. Charles Reid applies his over <span class="text-main font-bold">30 years of experience</span> to help patients achieve optimum health. </p>
 		<a class="bg-main px-8 py-4 rounded-lg text-white shadow-md hover:border-main hover:bg-white hover:text-main float-right" href="contact">Schedule Today</a>
 	</div>
 	<div class="w-1/2 relative h-full" style="overflow:hidden;">
@@ -57,7 +57,7 @@
 		</h2>
 		<div class="flex mt-8 -mx-3 mt-16 text-gray-800 justify-center persp floater">
 			{#each services as service, i}
-				<div class:rRight={i==2} class:rMid={i==1} class:rLeft={i==0} class="bg-gray-100 mx-3 shadow-2xl rounded-lg pt-0 flex flex-col border-gray-500 mb-6 hover:shadow-3xl w-1/3 "  data-var="30" style="-webkit-box-reflect: below 12px -webkit-gradient(linear, right top, right bottom, from(transparent), color-stop(80%, transparent), to(rgba(255, 255, 255, 1)))">
+				<div class:rRight={i==2} class:rMid={i==1} class:rLeft={i==0} class="bg-gray-100 mx-3 shadow-2xl rounded-lg pt-0 flex flex-col border-gray-500 mb-6 hover:shadow-3xl w-1/3 "  data-var="30" style="-webkit-box-reflect: below 12px -webkit-gradient(linear, right top, right bottom, from(transparent), color-stop(80%, transparent), to(rgba(255, 255, 255, 0.8)))">
 					<img src="{service.img}" alt="" class=" rounded-t-lg w-full h-64 object-cover">
 					<div class="p-12 pb-16">
 						<h3 class="text-md text-gray-800 font-thin mb-2">{service.tag}</h3>

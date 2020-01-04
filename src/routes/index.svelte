@@ -43,7 +43,7 @@
 		<a class="bg-main px-8 py-4 rounded-lg text-white shadow-md hover:border-main hover:bg-white hover:text-main float-right" href="contact">Schedule Today</a>
 	</div>
 	<div class="w-1/2 relative h-full" style="overflow:hidden;">
-		<div class=" bg-bottom bg-cover floaterI" data-var="-120" style="background-image:url('img/reid1.jpg'); height:100%; background-position-x: 35%; background-position-y:10%; transform:scale(1.2)"></div>
+		<div class=" bg-bottom bg-cover floaterI" data-var="-120" style="background-image:url('img/reid2.jpg'); height:100%; background-position-x: 35%; background-position-y:10%; transform:scale(1.2)"></div>
 		<svg class="absolute inset-y-0 h-full fill-current text-gray-100 w-32 -ml-16" preserveAspectRatio="none" viewBox="0 0 100 100">
 			
 			<polygon points="50,0 100,0 50,100 0,100"/>

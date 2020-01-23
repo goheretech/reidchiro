@@ -29,26 +29,28 @@ export const services = [
        ];
        
 export const homeBlurb = [
-    {
-        title: "Offices you’ll want to visit",
-        p: "We’ve positioned our beautiful offices near where you live, work, and travel. You can schedule same- or next-day appointments that start on time.",
-        linkT: "View Address",
-        link: "/contact",
-        img: "img/smile.jpg"
-    },
-    {
-        title: "Offices you’ll want to visit",
-        p: "We’ve positioned our beautiful offices near where you live, work, and travel. You can schedule same- or next-day appointments that start on time.",
-        linkT: "View Address",
-        link: "/contact",
-        img: "img/smile.jpg"
-    },
-    {
-        title: "Offices you’ll want to visit",
-        p: "We’ve positioned our beautiful offices near where you live, work, and travel. You can schedule same- or next-day appointments that start on time.",
-        linkT: "View Address",
-        link: "/contact",
-        img: "img/smile.jpg"
-    }
-
-];
+           {
+               title: 'Offices you’ll want to visit',
+               p:
+                   'We’ve positioned our beautiful offices near where you live, work, and travel. You can schedule same- or next-day appointments that start on time.',
+               linkT: 'View Address',
+               link: '/contact',
+               img: 'img/reid1.jpg'
+           },
+           {
+               title: 'Top providers with time to talk',
+               p:
+                   "Our appointments are longer, and you'll spend the whole time with an exceptional provider who really listens and who knows what they’re talking about. You also get an in-house support team to guide and advocate for you through questions about billing, finding providers, insurance, and more.",
+               linkT: 'View Address',
+               link: '/contact',
+               img: 'img/reid2.jpg'
+           },
+           {
+               title: 'Care in the palm of your hand',
+               p:
+                   "We integrate technology into all aspects of our practice to provide you with coordinated, seamless care — no matter where you are. Download our app to schedule appointments, renew prescriptions, or message your provider on the go. When you can't get to an office, use our video visits to connect with a provider 24/7.",
+               linkT: 'View Address',
+               link: '/contact',
+               img: 'img/transac.jpg'
+           }
+       ];

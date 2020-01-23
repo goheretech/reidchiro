@@ -39,15 +39,15 @@
 </section>
 {#each homeBlurb as blurb, i}
 <section class="flex mx-32 mb-48" class:flex-row-reverse={i%2!=0}>
-	<div style="background-image:url(img/reid1.jpg)" class="bg-center bg-cover w-1/2 "></div>
+	<div style="background-image:url({blurb.img})" class="bg-center bg-cover w-1/2 "></div>
 	<div class="w-1/2" class:pl-32={i%2==0} class:my-64={i%2!=0} class:my-32={i%2==0} class:pr-32={i%2!=0}>
 		<h2 class="text-green-800 font-semibold leading-none mb-12" style="font-family: 'Playfair Display', serif; font-size:70px;">
-			Offices you’ll want to visit
+			{blurb.title}
 		</h2>
 		<p class="text-lg text-green-900 mb-12">
-			We’ve positioned our beautiful offices near where you live, work, and travel. You can schedule same- or next-day appointments that start on time.
+			{blurb.p}
 		</p>
-		<a class="text-green-800" href="">View Address ></a>
+		<a class="text-green-800" href="{blurb.link}">{blurb.linkT} ></a>
 	</div>
 </section>
 {/each}

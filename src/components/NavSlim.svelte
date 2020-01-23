@@ -1,5 +1,17 @@
 <script>
-	import NavSlim from './NavSlim.svelte'
+    import NavSlim from './NavSlim.svelte';
+    import { onMount } from 'svelte';
+    export let whiteActive = false;
+    onMount (()=>{
+        window.addEventListener('scroll', (e)=>{
+            if (window.scrollY > 600) 
+            {
+                whiteActive = true
+            }else{
+                whiteActive = false
+            };            
+        })
+    })
 </script>
 
 <style>
@@ -28,9 +40,24 @@
     nav:hover .border-white{
         border-color:#2f855a !important;
     }
+
+    nav.wb {
+        background:white;
+    } 
+
+    nav.wb img{
+        filter: none;
+    }
+
+    nav.wb .text-white{
+        color:#2f855a !important;
+    }
+    nav.wb .border-white{
+        border-color:#2f855a !important;
+    }
 </style>
 
-<nav class="px-8 py-4 flex item-center justify-between fixed top-0 left-0 right-0 hover:shadow" style="transition:all 300ms">
+<nav class:wb={whiteActive} class="px-8 py-4 flex item-center justify-between fixed top-0 left-0 right-0 hover:shadow z-10" style="transition:all 300ms">
     <img class="h-12" src="img/logononame.png" alt="Reid Chiropractic">
     <div class="flex items-center text-white">
         <a class=" px-4" href="#">For You</a>

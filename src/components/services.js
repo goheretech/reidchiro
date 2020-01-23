@@ -27,3 +27,28 @@ export const services = [
                button: 'Dive In'
            }
        ];
+       
+export const homeBlurb = [
+    {
+        title: "Offices you’ll want to visit",
+        p: "We’ve positioned our beautiful offices near where you live, work, and travel. You can schedule same- or next-day appointments that start on time.",
+        linkT: "View Address",
+        link: "/contact",
+        img: "img/smile.jpg"
+    },
+    {
+        title: "Offices you’ll want to visit",
+        p: "We’ve positioned our beautiful offices near where you live, work, and travel. You can schedule same- or next-day appointments that start on time.",
+        linkT: "View Address",
+        link: "/contact",
+        img: "img/smile.jpg"
+    },
+    {
+        title: "Offices you’ll want to visit",
+        p: "We’ve positioned our beautiful offices near where you live, work, and travel. You can schedule same- or next-day appointments that start on time.",
+        linkT: "View Address",
+        link: "/contact",
+        img: "img/smile.jpg"
+    }
+
+];

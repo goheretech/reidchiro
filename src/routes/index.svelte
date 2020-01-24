@@ -43,7 +43,7 @@
 	<section style="background-image:url(img/reid2.jpg)" class="w-full h-full bg-center bg-cover">
 		<div class="w-full h-full flex items-center justify-center text-white flex-col relative" style="background:rgba(30,30,30,.30)">
 			<container class="flex justify-center items-center flex-col text-center" style="width:1300px;">
-			<h2 class="text-center font-bold leading-none" style="font-family: 'Playfair Display', serif; font-size:90px;">Educating and empowering patients to live a healthy optimized life</h2>
+			<h2 class="text-center font-bold leading-none" style="font-family: 'Playfair Display', serif; font-size:90px;">Personal, proactive, life-changing care</h2>
 			
 			<div class="mb-24 absolute bottom-0 font-bold flex flex-col items-center justify-center">
 				<a href="#" class="mt-12 bg-green-700 gold rounded-full px-8 py-4">Sign Up today</a>
@@ -55,9 +55,9 @@
 </div>
 <section  class="flex justify-center items-center flex-col py-48">
 	<container class="flex justify-center items-center flex-col text-center" style="width:1100px;">
-		<h2 class="text-green-800 font-semibold leading-none mb-10" style="font-family: 'Playfair Display', serif; font-size:75px;">We’re changing the way you go to the chiropractor</h2>
+		<h2 class="text-green-800 font-semibold leading-none mb-10" style="font-family: 'Playfair Display', serif; font-size:75px;">We’re educating and empowering patients</h2>
 		<p class="text-lg text-green-900">
-			This is no ordinary doctor’s office. Rather than do things the typical way, we’ve created a membership-based primary care practice truly designed around your needs. From same-day appointments that start on time to compassionate providers who listen to 24/7 video visits, we make it faster, easier, and more enjoyable to get care — whenever and wherever you need it.
+			Start living a healthy, optimized life. Rather than do things the typical way, we’ve created a membership-based primary care practice truly designed around your needs. From same-day appointments that start on time to compassionate providers who listen to 24/7 video visits, we make it faster, easier, and more enjoyable to get care — whenever and wherever you need it.
 		</p>
 	</container>
 </section>

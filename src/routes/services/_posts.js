@@ -13,7 +13,7 @@ const posts = [
         slug: 'chiropractic',
         head: `Adjusting For Wellness`,
         html: `Proper musculoskeletal alignment and exercise are the  keys to moving correctly and strengthening the mind-body connection.`,
-        pic: 'img/exam.jpg'
+        pic: 'img/chir.jpg'
     },
     {
         title: 'Nutrition',

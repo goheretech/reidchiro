@@ -59,7 +59,7 @@
 			
 		</container>
 	</section>
-	<section class="bg-gray-100 flex justify-center items-center flex-col w-full py-48">
+	<section class="bg-gray-200 flex justify-center items-center flex-col w-full py-48">
 		<container class="flex justify-center items-center flex-col text-center" style="width:1100px;">
 			<h2 class="text-green-800 font-semibold leading-none mb-12" style="font-family: 'Playfair Display', serif; font-size:55px;">“Dr. Reid remembers what many other healthcare companies don’t - that patients are people.”</h2>
 			<p class="text-lg text-green-900">
@@ -73,17 +73,17 @@
 			<div class="flex">
 				<div class="div mx-12">
 					<div style="background-image:url('img/exam.jpg')" class="w-full h-64 bg-center bg-cover"></div>
-					<h3 class="text-green-800 font-semibold leading-none text-2xl mb-4 mt-8">Connect to care 24/7</h3>
+					<h3 class="text-green-800 font-semibold leading-none text-xl mb-4 mt-8">Connect to care 24/7</h3>
 					<p>Connect to on-demand care over video. Message our care team. Renew prescriptions and book appointments with just a few taps.</p>
 				</div>
 				<div class="div mx-12">
 					<div style="background-image:url('img/reid1.jpg')" class="w-full h-64 bg-center bg-cover"></div>
-					<h3 class="text-green-800 font-semibold leading-none text-2xl mb-4 mt-8">Easily book appointments at any of our 70+ offices</h3>
+					<h3 class="text-green-800 font-semibold leading-none text-xl mb-4 mt-8">Easily book appointments at any of our 70+ offices</h3>
 					<p>All of our providers have access to your complete One Medical health history — so you can get truly personalized care wherever you work, live, and travel.</p>
 				</div>
 				<div class="div mx-12">
 					<div style="background-image:url('img/reid2.jpg')" class="w-full h-64 bg-center bg-cover"> </div>
-					<h3 class="text-green-800 font-semibold leading-none text-2xl mb-4 mt-8">Get help navigating the system</h3>
+					<h3 class="text-green-800 font-semibold leading-none text-xl mb-4 mt-8">Get help navigating the system</h3>
 					<p>From billing questions to insurance issues to specialist referrals, our care team is here to help guide you through the healthcare maze.</p>
 				</div>
 				

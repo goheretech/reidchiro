@@ -42,18 +42,20 @@
 <div class="flex items-center bg-gray-100 h-screen">
 	<section style="background-image:url(img/reid2.jpg)" class="w-full h-full bg-center bg-cover">
 		<div class="w-full h-full flex items-center justify-center text-white flex-col relative" style="background:rgba(30,30,30,.30)">
-			<h2 class="px-128 text-center font-bold leading-none" style="font-family: 'Playfair Display', serif; font-size:90px;">Exceptional chiropractic care,<br> designed for real life</h2>
+			<container class="flex justify-center items-center flex-col text-center" style="width:1300px;">
+			<h2 class="text-center font-bold leading-none" style="font-family: 'Playfair Display', serif; font-size:90px;">Educating and empowering patients to live a healthy optimized life</h2>
 			
 			<div class="mb-24 absolute bottom-0 font-bold flex flex-col items-center justify-center">
 				<a href="#" class="mt-12 bg-green-700 gold rounded-full px-8 py-4">Sign Up today</a>
 				<h3 class="font-bold mt-6">Lorem ipsum dolor sit amet, consectetur</h3>
 			</div> 
+			</container>
 		</div>
 	</section>
 </div>
 <section  class="flex justify-center items-center flex-col py-48">
 	<container class="flex justify-center items-center flex-col text-center" style="width:1100px;">
-		<h2 class="text-green-800 font-semibold leading-none mb-12" style="font-family: 'Playfair Display', serif; font-size:75px;">We’re changing the way you go to the chiropractor</h2>
+		<h2 class="text-green-800 font-semibold leading-none mb-10" style="font-family: 'Playfair Display', serif; font-size:75px;">We’re changing the way you go to the chiropractor</h2>
 		<p class="text-lg text-green-900">
 			This is no ordinary doctor’s office. Rather than do things the typical way, we’ve created a membership-based primary care practice truly designed around your needs. From same-day appointments that start on time to compassionate providers who listen to 24/7 video visits, we make it faster, easier, and more enjoyable to get care — whenever and wherever you need it.
 		</p>
@@ -63,7 +65,7 @@
 <section class="flex mx-32 mb-48" class:flex-row-reverse={i%2!=0}>
 	<div style="background-image:url({blurb.img})" class="bg-center bg-cover w-1/2 "></div>
 	<div class="w-1/2" class:pl-32={i%2==0} class:my-64={i%2!=0} class:my-32={i%2==0} class:pr-32={i%2!=0}>
-		<h2 class="text-green-800 font-semibold leading-none mb-12" style="font-family: 'Playfair Display', serif; font-size:70px;">
+		<h2 class="text-green-800 font-semibold leading-none mb-10" style="font-family: 'Playfair Display', serif; font-size:70px;">
 			{blurb.title}
 		</h2>
 		<p class="text-lg text-green-900 mb-12">
@@ -76,7 +78,7 @@
 <!-- 
 			<section class="flex mx-32 my-32">
 				<div class="w-1/2 my-56 mr-32">
-					<h2 class="text-green-800 font-semibold leading-none mb-12" style="font-family: 'Playfair Display', serif; font-size:75px;">
+					<h2 class="text-green-800 font-semibold leading-none mb-10" style="font-family: 'Playfair Display', serif; font-size:75px;">
 						Offices you’ll want to visit
 					</h2>
 					<p class="text-lg text-green-900 mb-12">

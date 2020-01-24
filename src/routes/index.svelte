@@ -1,8 +1,26 @@
 <script>	
+	import { onMount } from 'svelte';
 	import NavSlim from '../components/NavSlim.svelte';
 	import About from '../components/About.svelte'
 	import {services, homeBlurb} from '../components/services.js';	
-	import Footer from '../components/Footer.svelte'
+	import Footer from '../components/Footer.svelte';
+	let scroll = 0;
+    onMount (()=>{
+        window.addEventListener('scroll', (e)=>{
+            scroll = getScrollPercent();
+            
+            console.log(scroll);
+		 
+        })
+
+        function getScrollPercent() {
+            var h = document.documentElement, 
+                b = document.body,
+                st = 'scrollTop',
+                sh = 'scrollHeight';
+            return (h[st]||b[st]) / ((h[sh]||b[sh]) - h.clientHeight) * 100;
+        }
+    })
 </script>
 <style>
 	.service-item{
@@ -74,7 +92,7 @@
 <section style="font-family: 'Playfair Display', serif;" class="bg-green-700 p-32">
 	<h3 class="text-white mb-12 text-xl">How we can help:</h3>
 	{#each services as service, i}
-		<h2 class="font-bold text-white leading-none mb-4 " style="font-family: 'Playfair Display', serif; font-size:110px;"><a class="service-item" href="">{service.name}</a></h2>
+		<h2 class="font-bold text-white leading-none mb-4 " style="font-family: 'Playfair Display', serif; font-size:110px;"><a class="service-item" href="{service.url}">{service.name}</a></h2>
 	{/each}
 </section>
 <Footer />

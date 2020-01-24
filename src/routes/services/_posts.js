@@ -12,14 +12,14 @@ const posts = [
         title: 'Chiropractic',
         slug: 'chiropractic',
         head: `Adjusting For Wellness`,
-        html: `<p class="text-2xl mt-8 mb-16">Proper musculoskeletal alignment and exercise are the  keys to <span class="text-main font-bold text-3xl">moving correctly </span> and <span class="text-main font-bold text-3xl">strengthening</span> the mind-body connection.</p>`,
+        html: `Proper musculoskeletal alignment and exercise are the  keys to moving correctly and strengthening the mind-body connection.`,
         pic: 'img/exam.jpg'
     },
     {
         title: 'Nutrition',
         slug: 'nutrition',
         head: `This is the nutrition page`,
-        html: ` <p class="text-xl text-3xl mt-8 mb-16"><span class="text-main font-bold text-4xl"> Food is medicine. </span>   Proper eating can replenish and restore deficiencies while eliminating toxicities that lead to early degeneration.</p> <p class="text-xl text-3xl mt-8 mb-16">By using a combination of whole food supplements and healthy eating our patients progress toward <span class="text-main font-bold text-4xl"> optimum wellness</span>.</>    `,
+        html: ` Food is medicine.  Proper eating can replenish and restore deficiencies while eliminating toxicities that lead to early degeneration.<br> By using a combination of whole food supplements and healthy eating our patients progress toward optimum wellness.</>    `,
         pic: 'img/sup.jpg'
     }
 ];

@@ -90,8 +90,9 @@
 			</div>
 		</container>
 	</section>
-	<section class="bg-green-700 py-64 flex justify-center items-center flex-col">
-		<container class="flex justify-center items-center flex-col text-center" style="width:1100px;">
+	<section  style="background-image:url('img/fab1.jpg')" class="bg-center bg-contain flex justify-center items-center flex-col relative py-48" >
+		<div class="bg-green-700 absolute top-0 bottom-0 left-0 right-0 h- opacity-75"></div>
+		<container class="flex justify-center items-center flex-col text-center z-20" style="width:1100px;">
 			<h2 class="text-white font-semibold leading-none mb-12 text-center" style="font-family: 'Playfair Display', serif; font-size:85px;">Get started with Reid Chiropractic today</h2>
 			<div class="flex">
 				<a href="#" class="mt-12 gold rounded-full px-12 py-4 font-semibold mx-4 text-green-800 lightgreen" >Sign Up today</a>

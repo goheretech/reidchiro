@@ -82,11 +82,13 @@
 				<div style="background-image:url(img/reid2.jpg)" class="bg-center bg-cover w-1/2 "></div>
 			</section> 
 -->
-
-<section style="font-family: 'Playfair Display', serif;" class="bg-green-700 p-32 mt-48">
-	<h3 class="text-white mb-12 text-xl">How we can help:</h3>
-	{#each services as service, i}
-		<h2 class="font-bold text-white leading-none mb-4 " style="font-family: 'Playfair Display', serif; font-size:110px;"><a class="service-item" href="{service.url}">{service.name}</a></h2>
-	{/each}
+<section  style="background-image:url('img/fab1.jpg'); font-family: 'Playfair Display', serif;" class="bg-center bg-contain flex justify-start items-start flex-col relative p-32 mt-48" >
+		<div class="bg-green-700 absolute top-0 bottom-0 left-0 right-0 h- opacity-75"></div>
+		<div class="z-10">
+			<h3 class="text-white mb-12 text-xl">How we can help:</h3>
+			{#each services as service, i}
+				<h2 class="font-bold text-white leading-none mb-4 " style="font-family: 'Playfair Display', serif; font-size:110px;"><a class="service-item" href="{service.url}">{service.name}</a></h2>
+			{/each}
+		</div>
 </section>
 <Footer />

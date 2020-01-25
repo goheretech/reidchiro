@@ -1,3 +1,9 @@
+export const articles = [
+    {
+        
+    }
+]
+
 export const services = [
            {
                tag: 'Align Yourself',

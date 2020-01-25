@@ -15,29 +15,41 @@
 
 <script>
 	export let post;
-	import Nav from '../../components/Nav.svelte';
+	import NavSlim from '../../components/NavSlim.svelte';
     import {services} from '../../components/services.js';	    
 	import Hero from '../../components/Hero.svelte';
 	import About from '../../components/About.svelte'
     import Footer from '../../components/Footer.svelte'
 </script>
 
-
+<style>
+	h2{
+		font-size:24px;
+	}
+	p{
+		margin-bottom:12px;
+	}
+</style>
 <svelte:head>
 	<title>{post.title}</title>
 </svelte:head>
 
-<Nav />
-<Hero url='{post.img}' title=""/>
-<h1 class=" ml-2 mt-6 text-main text-6xl  w-1/2 font-bold relative z-10 px-20 -mt-20" >{post.title}</h1>
-<div class='content px-20 py-10'>
-	{@html post.html}
-	<a class="pt-8" href="/insights" style="margin-top:30px">
-		<div class="mt-8 text-xl">
-			Back to Insights
-		</div>
-	</a>
+<NavSlim />
+<div class="bg-green-700 w-full flex items-end justify-center">
+	<container style="width:1100px; margin-top:200px; margin-bottom:30px;">
+			<h1 class=" text-white text-6xl font-bold relative z-10 mb-8 text-right" >{post.title}</h1>
+	</container>
 </div>
-
-<About />
+<div class='content px-20 py-10 flex items-center justify-center bg-gray-100'>
+	<container style="width:1100px;">
+		{@html post.html}
+		<a class="pt-8" href="/insights" style="margin-top:30px">
+			<div class="mt-8 text-xl">
+				Back to Insights
+			</div>
+		</a>
+	</container>
+</div>
+<!-- 
+<About /> -->
 <Footer />

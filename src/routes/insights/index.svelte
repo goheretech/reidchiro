@@ -7,7 +7,7 @@
 </script>
 
 <script>
-    import Nav from '../../components/Nav.svelte';
+    import NavSlim from '../../components/NavSlim.svelte';
     import {services} from '../../components/services.js';	    
     import Hero from '../../components/Hero.svelte';
     import About from '../../components/About.svelte'
@@ -17,7 +17,7 @@
 <svelte:head>
 	<title>Insights | Reid Chiropractic</title>
 </svelte:head>
-<Nav />
+<NavSlim />
 <Hero url='img/int/_OSR6163.jpg' title="Dr. Reid's Insights"/>
 
 	<div class="mx-24 my-16" >

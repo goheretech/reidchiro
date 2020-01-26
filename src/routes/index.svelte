@@ -28,6 +28,8 @@
 	}
 	.service-item:hover{
 		color:#eed879;
+		margin-top:20px;
+		margin-bottom:20px;
 	}
 
 	.gold:hover{
@@ -43,7 +45,7 @@
 	<section style="background-image:url(img/kitch2.jpg)" class="w-full h-full bg-center bg-cover">
 		<div class="w-full h-full flex items-center justify-center flex-col relative" style="background:rgba(30,30,30,.20)">
 			<container class="flex justify-end items-end text-center h-full" style="width:1300px;">
-				<div class="bg-gray-100 w-1/2 px-12 py-32">
+				<div class="bg-gray-100 w-1/2 px-12 py-32 shadow-lg -mb-12">
 					<h2 style="font-family: 'Playfair Display'; font-size: 48px;">"My goal is to educate and empower patients to live a healthy optimized life."</h2>
 					<div class="flex justify-center items-center mt-12 pt-12 border-solid border-t-4 border-gray-300">
 						<div class="rounded-full bg-center bg-cover mr-8 " style="background-image:url(img/int/_OSR6163.jpg); width:80px; height:80px;"></div>
@@ -83,11 +85,11 @@
 			</section> 
 -->
 <section  style="background-image:url('img/fab1.jpg'); font-family: 'Playfair Display', serif;" class="bg-center bg-contain flex justify-start items-start flex-col relative p-32 mt-48" >
-		<div class="bg-green-700 absolute top-0 bottom-0 left-0 right-0 h- opacity-75"></div>
+		<div class="bg-green-700 absolute top-0 bottom-0 left-0 right-0 opacity-75"></div>
 		<div class="z-10">
 			<h3 class="text-white mb-12 text-xl">How we can help:</h3>
 			{#each services as service, i}
-				<h2 class="font-bold text-white leading-none mb-4 " style="font-family: 'Playfair Display', serif; font-size:110px;"><a class="service-item" href="{service.url}">{service.name}</a></h2>
+				<h2 class="font-bold text-white leading-none mb-4 " style="font-family: 'Playfair Display', serif; font-size:110px;"><a class="service-item  hover:my-16" href="{service.url}">{service.name}</a></h2>
 			{/each}
 		</div>
 </section>

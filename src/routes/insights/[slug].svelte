@@ -35,7 +35,8 @@
 </svelte:head>
 
 <NavSlim />
-<div class="bg-green-700 w-full flex items-end justify-center">
+<div  style="background-image:url('img/fab1.jpg'); font-family: 'Playfair Display', serif;" class="bg-center bg-contain flex items-end justify-center relative" >
+<div class="bg-green-700 absolute top-0 bottom-0 left-0 right-0 opacity-75"></div>
 	<container style="width:1100px; margin-top:200px; margin-bottom:30px;">
 			<h1 class=" text-white text-6xl font-bold relative z-10 mb-8 text-right" >{post.title}</h1>
 	</container>
